@@ -1,0 +1,10 @@
+name: SimpleEXP
+version: '${project.version}'
+main: sesosas.simpleexp.SimpleEXP
+authors: [ SESOSAS ]
+description: Simple EXP aims to give the possibility to bring custom exp drops with min and max values plus a chance in percentage to Minecraft.
+commands:
+  sxp-reload:
+    description: Reload the config.
+    permission: sxp.staff
+    permission-message: You need the permission sxp.staff to use this command.
